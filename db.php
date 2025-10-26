@@ -1,7 +1,7 @@
 <?php
 // db.php
 $host = 'localhost';
-$db   = 'blogy';
+$db   = 'yoi_blog';
 $user = 'root';
 $pass = '';
 $charset = 'utf8mb4';
