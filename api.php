@@ -1,7 +1,7 @@
 <?php
 // api.php
 header('Content-Type: application/json');
-$conn = new mysqli('localhost', 'root', '', 'blogy'); // แก้ชื่อฐานข้อมูลให้ตรงของยอย
+$conn = new mysqli('localhost', 'root', '', 'yoi_blog'); // แก้ชื่อฐานข้อมูลให้ตรงของยอย
 
 if ($conn->connect_error) {
     echo json_encode(['success' => false, 'message' => 'DB connect fail']);
